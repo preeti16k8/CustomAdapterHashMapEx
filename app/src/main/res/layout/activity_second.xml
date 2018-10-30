@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="Purchase with"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#000"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="SD Card"
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/sdcard"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="Pen Drive"
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/usb"/>
+
+    </LinearLayout>
+    <!--To put horizontal line after first row-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#aaa"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Course\n name"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price in\nINR"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price in\nUSD"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:background="@drawable/myshape">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="C Sharp for\n professionals"
+            android:id="@+id/textView5"
+            android:textColor="#000"
+            android:layout_weight="0.5"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\u20b9 15989"
+                android:textColor="#f20000"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="\u20b9 12492"
+                android:textColor="#000600"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="$ 312"
+                android:textColor="#f20000"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="$ 246"
+                android:textColor="#000600"
+                android:gravity="center"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Enroll"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:background="#307bb5" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:id="@+id/listView2" />
+
+
+</LinearLayout>
